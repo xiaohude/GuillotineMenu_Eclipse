@@ -79,6 +79,9 @@ public class GuillotineAnimation {
                     }
                     mActionBarView.setPivotX(calculatePivotX(openingView));
                     mActionBarView.setPivotY(calculatePivotY(openingView));
+
+                    mGuillotineView.setPivotX(calculatePivotX(openingView));
+                    mGuillotineView.setPivotY(calculatePivotY(openingView));
                 }
             });
         }
